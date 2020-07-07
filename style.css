@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Yantramanav:wght@400;500;700&display=swap');
+
+.ingredientLabel{
+    display: flex;
+}
+
+section
+
+#nav-header {
+    height: 120px;
+    width: auto;
+    margin: 0;
+    font-family: 'Cookie';
+    font-weight: lighter;
+    font-style: italic;
+}
+
+body{
+    font-family: 'Yantramanav';
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+}
+
+section{
+    padding: 100px 0;
+}
+
+#nice {
+    height: 937px;
+    background-image: url(home-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url(home-background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#home-chef-logo {
+    height: 80px;
+    position: absolute;
+    bottom: 830px;
+    left: 10px;
+}
+
+.leftSide {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.text-black {
+    color: #332a27be;
+    transition: color 0.2s;
+}
+
+.text-black:hover {
+    color: #978a81be;
+}
+
+#text-white{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+}
+
+.rightNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fdf7e7f6;
+    position: relative;
+    padding: 100px;
+}
+
+#name{
+    color: #020202e1;
+    font-family: 'Cookie';
+    font-size: 35px;
+    font-style: italic;
+}
+
+#name:hover {
+    color: #978a81be;
+    text-decoration: none;
+}
+
+#welcome1{
+    display: flex;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #332a27be;
+    padding-bottom: 30px;
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+    background-image: url(kitchen.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 65px 0px;
+}
+
+#welcome {
+    margin-right: 40px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#searchRecipes {
+    padding-left: 45px;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid #bdbab2;
+    outline: none;
+    background-image: url(recipe.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 9px 8px;
+}
+
+
+#recipe-logo{
+    position: absolute;
+    height: 30px;
+    top: 20px;
+    right: 395px;
+}
+
+#image-container{
+    position: relative;
+}
+
+#chef-hat {
+    position: absolute;
+    height: 35px;
+    left: 75px;
+    top: -10px;
+}
+
+.buttons{
+    border-radius: 5px;
+    font-family: 'Cookie';
+    font-size: 20px;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+}
+
+.buttons:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+#recipeList{
+    font-family: 'cookie';
+    font-size: 25px;
+    padding: 50px;
+    border-radius: 5px;
+    padding-bottom: 70px;
+}
+
+.recipe-list {
+    color: #fffff8;
+}
+
+.recipe-list:hover{
+    color: #fffffffb;
+}
+
+.recipe-div2 {
+    border: 2px solid #fdb7b7; 
+    border-radius: 10px;
+    padding: 20px 400px;
+    background-color: #fdb7b7;
+    margin-bottom: 9px;
+    transition: background-color 0.2s border 0.2s;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.div-buttons {
+    height: 45px;
+    width: 45px;
+    margin-top: 30px;
+    position: absolute;
+    left: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.div-buttons:focus{
+    outline: none;
+}
+
+.div-buttons:hover{
+    background-color: rgb(248, 225, 225);
+}
+
+footer {
+    background-color: #555555;
+    padding: 25px;
+    font-size: 80%;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #777777;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 130%;
+}
+
+.icon-social-facebook,
+.icon-social-twitter,
+.icon-social-google,
+.icon-social-ig {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.icon-social-facebook:hover {
+    color: #3b5998;
+}
+
+.icon-social-google:hover {
+    color: #C20806;
+}
+
+.icon-social-twitter:hover {
+    color: #00B6F1;
+}
+
+.icon-social-ig:hover {
+    color: #2C6A93;
+}
+
+
+
+footer p {
+    color: #888;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

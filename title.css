@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 78vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(title-page.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Caveat';
+}
+
+#title {
+    padding-top: 18px;
+    color: #e6e2d3;
+    margin: 70px;
+    font-size: 120px;
+    position: relative;
+    background-image: url(kitchen.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    cursor: pointer;
+}
+
+#input {
+    font-size: 70px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    font-family: 'caveat';
+    text-align: center;
+    color: #f7d3d6be;
+    
+}
+
+#input:focus {
+    outline: none;
+}
+
+#input::placeholder {
+    color: #f7d3d6be
+}
+
+#button {
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    bottom: 357px;
+    left: 1130px;
+    border-radius: 10px;
+    background-color: #f7d3d6be;
+    transition: background-color 0.2s;
+    margin-bottom: 23px;
+}
+
+#button:hover {
+    background-color: #f8c5c9be
+}
+
+#button:focus {
+    outline: none;
+}
